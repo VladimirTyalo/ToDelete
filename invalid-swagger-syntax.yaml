@@ -178,7 +178,7 @@ definitions:
     description: "An open port on a container"
     required: [PrivatePort, Type]
     properties:
-      IP:
+      IP: ""
         type: "string"
         format: "ip-address"
         description: "Host IP address that the container's port is mapped to"
@@ -11410,7 +11410,7 @@ paths:
         ```
       operationId: "Session"
       produces:
-        - "application/vnd.docker.raw-stream
+        - "application/vnd.docker.raw-stream"
       responses:
         101:
           description: "no error, hijacking successful"
