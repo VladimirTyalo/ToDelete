@@ -176,9 +176,9 @@ definitions:
   Port:
     type: "object"
     description: "An open port on a container"
-    required: [PrivatePort, Type]
+    required: [PrivatePort, Type, Name]
     properties:
-      IP: ""
+      IP
         type: "string"
         format: "ip-address"
         description: "Host IP address that the container's port is mapped to"
