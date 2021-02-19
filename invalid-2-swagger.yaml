@@ -22,7 +22,7 @@ consumes:
 basePath: "/v1.41"
 info:
   title: "Docker Engine API"
-  version: "1.41"
+  version: "1.41
   x-logo:
     url: "https://docs.docker.com/images/logo-docker-main.png"
   description: |
@@ -11410,7 +11410,7 @@ paths:
         ```
       operationId: "Session"
       produces:
-        - "application/vnd.docker.raw-stream
+        - "application/vnd.docker.raw-stream"
       responses:
         101:
           description: "no error, hijacking successful"
